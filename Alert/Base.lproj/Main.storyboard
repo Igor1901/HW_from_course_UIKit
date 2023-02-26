@@ -61,12 +61,20 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="hello world" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JRi-sA-N9F">
+                                <rect key="frame" x="91" y="622" width="212" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.944781037414966" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <connections>
                         <outlet property="guessLabel" destination="PRe-AY-E5v" id="Abw-xW-7ZJ"/>
+                        <outlet property="helloLabel" destination="JRi-sA-N9F" id="eLz-p5-Ea6"/>
                         <outlet property="nameLabel" destination="pzx-hD-gBN" id="c2k-pe-mRF"/>
                         <outlet property="resultLabel" destination="Mam-Gk-tew" id="Nd7-iM-Lyh"/>
                     </connections>
